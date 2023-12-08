@@ -1,6 +1,6 @@
     import React from 'react';
     import { useSpring, animated } from 'react-spring';
-    import { Header } from '../../components/header';
+    import { Header } from '../../components/Header';
     import styled from "styled-components"
 
     interface IHeader {
@@ -9,6 +9,7 @@
         titulo3: React.ReactNode
         titulo4: React.ReactNode
         titulo5: React.ReactNode
+        titulo6: React.ReactNode
     }
 
     const AnimatedStyled = styled(animated.div)`
@@ -16,15 +17,16 @@
         z-index: 1000;
         top: 0;
         width: 95%;
+        opacity: 0; /* Começa invisível */
     `
 
-    export const AnimatedHeader = ({ titulo1, titulo2, titulo3, titulo4, titulo5 }: IHeader) => {
+    export const AnimatedHeader = ({ titulo1, titulo2, titulo3, titulo4, titulo5, titulo6 }: IHeader) => {
         // Configurando a animação
         const fade = useSpring({
-            from: { opacity: 0 },
-            to: { opacity: 1 },
-            config: { duration: 3000 }, // Duração da animação em milissegundos
-            delay: 1000
+            from: { transform: 'translate3d(-100%, 0, 0)', opacity: 0 },
+            to: { transform: 'translate3d(0, 0, 0)', opacity: 1 },
+            config: { tension: 60, friction: 12, mass: 2 },
+            delay: 3000
         });
 
         return (
@@ -35,6 +37,7 @@
                     titulo3={titulo3}
                     titulo4={titulo4}
                     titulo5={titulo5}
+                    titulo6={titulo6}
                 />
             </AnimatedStyled>
         );

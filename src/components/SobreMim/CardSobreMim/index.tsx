@@ -42,8 +42,8 @@ export function CardSobreMim({ imagem, nome, cargo }: ICardSobreMim) {
                     gap: '0.5rem',
                     marginTop: '1rem'
                 }}>
-                    <Typography variant='h6' fontFamily={"'Exo 2', sans-serif"} sx={{display: 'flex', alignItems: 'center', gap: '.25rem'}}>
-                        <AdsClickIcon sx={{color: '#FF9209'}} />
+                    <Typography variant='h6' fontFamily={"'Exo 2', sans-serif"} sx={{ display: 'flex', alignItems: 'center', gap: '.25rem' }}>
+                        <AdsClickIcon sx={{ color: '#FF9209' }} />
                         Objetivo
                     </Typography>
 
@@ -55,8 +55,17 @@ export function CardSobreMim({ imagem, nome, cargo }: ICardSobreMim) {
             </CardContent>
 
             <CardActions sx={{ display: 'flex', justifyContent: 'space-between' }}>
-                <Button size="small">LinkedIn</Button>
-                <Button size="small">WhatsApp</Button>
+                <Button size="small" onClick={() => window.open('https://www.linkedin.com/in/matheus-rocha-devs/', '_blank')}>
+                    LinkedIn
+                </Button>
+
+                <Button
+                    size="small"
+                    onClick={() => window.open(`https://wa.me/+5511956042056?text=Olá, gostaria de conversar sobre...`, '_blank')}
+                >
+                    WhatsApp
+                </Button>
+
             </CardActions>
 
         </Card>

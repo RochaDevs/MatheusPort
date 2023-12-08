@@ -15,7 +15,7 @@ export function PaperSobreMim() {
             sx={{
                 display: 'flex',
                 flexWrap: 'wrap',
-                width: '60%',
+                width: '80%',
                 height: '100%'
             }}
         >

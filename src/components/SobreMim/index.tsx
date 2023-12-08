@@ -1,12 +1,13 @@
 import styled from "styled-components"
-import { PaperSobreMim } from "./PaperSobreMim/PaperSobreMim"
 import { AnimatedCardSobreMim } from "./CardSobreMim/AnimatedCardSobreMim"
+import { AnimatedPaperSobreMim } from "./PaperSobreMim/AnimatedPaperSobreMim"
 
 const DivContainer = styled.div`
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 2.5rem;
 `
 
 export const SobreMim = () => {
@@ -16,8 +17,7 @@ export const SobreMim = () => {
         <DivContainer>
 
             <AnimatedCardSobreMim />
-
-            <PaperSobreMim/>
+            <AnimatedPaperSobreMim />
 
         </DivContainer>
     )
