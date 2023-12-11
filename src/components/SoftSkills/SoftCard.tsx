@@ -41,7 +41,7 @@ export function CardSoft({ logo, titulo, texto1, texto2, texto3, texto4, texto5,
         flexDirection: 'column'
       }}>
 
-        <Typography gutterBottom variant="h6" component="div" lineHeight={'1rem'} fontFamily={"'Exo 2', sans-serif"}>
+        <Typography gutterBottom variant="h6" component="div" lineHeight={'1.35rem'} fontFamily={"'Exo 2', sans-serif"}>
           {titulo}
         </Typography>
 

@@ -3,34 +3,49 @@ import styled from "styled-components"
 import { AnimatedHeader } from "./AnimatedPaginaPrincipal"
 import { SoftSkills } from "../../components/SoftSkills"
 import { HardSkills } from "../../components/HardSkills"
+import { DevelopmentSkills } from "../../components/DevelopmentSkills"
 
 const DivContainer = styled.div`
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
+    gap: 6rem;
 `
 
 const SectionSobreMim = styled.section`
     margin-top: 5rem;
     height: 100vh;
     width: 100%;
+    box-sizing: border-box;
 `
 
 const SectionSoftSkills = styled.section`
-    margin-top: 5rem;
+    margin-top: 4rem;
     height: 100vh;
     width: 100%;
+    box-sizing: border-box;
 `
 
 const SectionHardSkills = styled.section`
+    margin-top: 4rem;
     height: 100vh;
     width: 100%;
+    box-sizing: border-box;
+`
+
+const SectionDevelopmentSkills = styled.section`
+    margin-top: 4rem;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
 `
 
 const SectionTest = styled.section`
-    margin-top: 5rem;
+    margin-top: 4rem;
     height: 100vh;
+    box-sizing: border-box;
 `
 
 export const PaginaPrincipal = () => {
@@ -67,9 +82,9 @@ export const PaginaPrincipal = () => {
                 <HardSkills />
             </SectionHardSkills>
 
-            <SectionTest id="skillsemdesenvolvimento">
-                <h1>Skills em desenvolvimento</h1>
-            </SectionTest>
+            <SectionDevelopmentSkills id="skillsemdesenvolvimento">
+                <DevelopmentSkills/>
+            </SectionDevelopmentSkills>
 
         </DivContainer>
     )

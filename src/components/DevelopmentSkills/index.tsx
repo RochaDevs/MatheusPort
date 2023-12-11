@@ -1,16 +1,16 @@
 import styled from 'styled-components'
-import { CarouselHard } from './CarouselHard'
+import { CarouselDevelopment } from './CarouselDevelopment'
 
 const DivContainer = styled.div`
     height: 100%;
     width: 100%;
 `
 
-export const HardSkills = () => {
+export const DevelopmentSkills = () => {
     return (
 
         <DivContainer>
-            <CarouselHard />
+            <CarouselDevelopment />
         </DivContainer>
 
     )

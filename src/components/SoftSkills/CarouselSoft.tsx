@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import Slider from "react-slick";
 import styled from "styled-components";
-import { CardSoft } from "./SoftHard";
+import { CardSoft } from "./SoftCard";
 import { RiSpeakFill } from "react-icons/ri";
 import { RiTeamFill } from "react-icons/ri";
 import { TiFlowMerge } from "react-icons/ti";
@@ -60,27 +60,24 @@ export const CarouselSoft = () => {
           }
           titulo={'Comunicação'}
           texto1={
-            'Comunicação'
+            'Promove:'
           }
           texto2={
-            'Comunicação'
+            'Melhoria na eficiência'
           }
           texto3={
-            'Comunicação'
+            'Resolução de conflitos'
           }
           texto4={
-            'Comunicação'
+            'Ambiente de trabalho positivo'
           }
           texto5={
-            'Comunicação'
+            'Constrói relações de confiança'
           }
           texto6={
-            'Comunicação'
+            'Tomada de Decisão Melhorada'
           }
           texto7={
-            'Comunicação'
-          }
-          texto8={
             '...'
           }
         />
@@ -94,22 +91,22 @@ export const CarouselSoft = () => {
           }
           titulo={'Trabalho em equipe'}
           texto1={
-            'Trabalho em Equipe'
+            'Promove:'
           }
           texto2={
-            'Trabalho em Equipe'
+            'Combinação de Habilidades e Forças Diversas'
           }
           texto3={
-            'Trabalho em Equipe'
+            'Aumento da produtividade'
           }
           texto4={
-            'Trabalho em Equipe'
+            'Apoio e motivação'
           }
           texto5={
-            'Trabalho em Equipe'
+            'Melhoria da comunicação'
           }
           texto6={
-            'Trabalho em Equipe'
+            'Responsabilidade compartilhada'
           }
           texto7={
             '...'
@@ -125,24 +122,27 @@ export const CarouselSoft = () => {
           }
           titulo={'Networking'}
           texto1={
-            'Networking'
+            'Promove:'
           }
           texto2={
-            'Networking'
+            'Acesso a Recursos e Informações'
           }
           texto3={
-            'Networking'
+            'Suporte e Aconselhamento'
           }
           texto4={
-            'Networking'
+            'Colaborações e Parcerias'
           }
           texto5={
-            'Networking'
+            'Construção de Reputação'
           }
           texto6={
-            'Networking'
+            'Aprendizado Contínuo'
           }
           texto7={
+            'Apoio na Transição de Carreira'
+          }
+          texto8={
             '...'
           }
         />
@@ -154,24 +154,24 @@ export const CarouselSoft = () => {
               color='#F06529'
             />
           }
-          titulo={'Resolução de conflitos'}
+          titulo={'Resolução de problemas'}
           texto1={
-            'Resolução de conflitos'
+            'Promove:'
           }
           texto2={
-            'Resolução de conflitos'
+            'Eficiência Operacional'
           }
           texto3={
-            'Resolução de conflitos'
+            'Fortalecimento de Equipes'
           }
           texto4={
-            'Resolução de conflitos'
+            'Inovação e Melhoria Contínua'
           }
           texto5={
-            'Resolução de conflitos'
+            'Desenvolvimento de Liderança'
           }
           texto6={
-            'Resolução de conflitos'
+            'Gestão de Riscos'
           }
           texto7={
             '...'
@@ -187,22 +187,22 @@ export const CarouselSoft = () => {
           }
           titulo={'Paciência e Tolerância'}
           texto1={
-            'Paciência e Tolerância'
+            'Promove:'
           }
           texto2={
-            'Paciência e Tolerância'
+            'Redução do Estresse'
           }
           texto3={
-            'Paciência e Tolerância'
+            'Tomada de Decisão Acalmada'
           }
           texto4={
-            'Paciência e Tolerância'
+            'Diversidade e Inclusão'
           }
           texto5={
-            'Paciência e Tolerância'
+            'Desenvolvimento de Empatia'
           }
           texto6={
-            'Paciência e Tolerância'
+            'Colaboração Eficaz'
           }
           texto7={
             '...'
@@ -218,19 +218,19 @@ export const CarouselSoft = () => {
           }
           titulo={'Flexibilidade e Adaptabilidade'}
           texto1={
-            'Flexibilidade e Adaptabilidade'
+            'Promove:'
           }
           texto2={
-            'Flexibilidade e Adaptabilidade'
+            'Disposição para Mudar'
           }
           texto3={
-            'Flexibilidade e Adaptabilidade'
+            'Resiliência em Face a Desafios'
           }
           texto4={
-            'Flexibilidade e Adaptabilidade'
+            'Reação Positiva a Situações Inesperadas'
           }
           texto5={
-            'Flexibilidade e Adaptabilidade'
+            'Capacidade de Tomar Decisões Sob Incerteza'
           }
           texto6={
             '...'
