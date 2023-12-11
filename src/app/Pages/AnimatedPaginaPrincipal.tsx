@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
 import styled from "styled-components"
-import { Header } from '../../components/Header/index';
+import { Header } from '../../components/Header';
 
 interface IHeader {
     titulo1: React.ReactNode
