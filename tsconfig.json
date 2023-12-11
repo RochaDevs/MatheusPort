@@ -14,12 +14,17 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"] // Isso mapeia todas as importações que começam com '@/' para 'src/'
+    },
+
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "src/app/Pages/PaginaPrincipal.tsx"],
+  "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
