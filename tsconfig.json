@@ -14,11 +14,6 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
-    "baseUrl": "./",
-    "paths": {
-      "@/*": ["src/*"] // Isso mapeia todas as importações que começam com '@/' para 'src/'
-    },
-
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
