@@ -14,8 +14,7 @@ import { SiReactquery } from "react-icons/si";
 import { SiReactrouter } from "react-icons/si";
 import { SiStyledcomponents } from "react-icons/si";
 import { SiMui } from "react-icons/si";
-import { CardHard } from "./cardhard";
-
+import { CardHard } from "./CardHard";
 
 
 const SliderStyled = styled(Slider)`

@@ -1,6 +1,6 @@
 import styled from "styled-components"
-import { AnimatedCardSobreMim } from "./cardsobremim/animatedcardsobremim"
-import { AnimatedPaperSobreMim } from "./papersobremim/animatedpapersobremim"
+import { AnimatedCardSobreMim } from "./CardSobreMim/AnimatedCardSobreMim"
+import { AnimatedPaperSobreMim } from "./PaperSobreMim/AnimatedPaperSobreMim"
 
 const DivContainer = styled.div`
     width: 100%;

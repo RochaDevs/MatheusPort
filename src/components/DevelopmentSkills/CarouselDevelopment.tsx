@@ -9,7 +9,7 @@ import { SiJest } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
-import { CardDevelopment } from "./carddevelopment";
+import { CardDevelopment } from "./CardDevelopment";
 
 
 

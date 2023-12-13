@@ -1,10 +1,11 @@
 import styled from "styled-components"
-import { SoftSkills } from "../../components/softskills"
-import { HardSkills } from "../../components/hardskills"
-import { DevelopmentSkills } from "../../components/developmentskills"
+import { AnimatedHeader } from "./AnimatedPaginaPrincipal"
+import { SobreMim } from "../../components/SobreMim"
 import { ProjetosPessoais } from "../../components/projetospessoais"
-import { AnimatedHeader } from "./animatedpaginaprincipal"
-import { SobreMim } from "../../components/sobremim"
+import { SoftSkills } from "../../components/SoftSkills"
+import { HardSkills } from "../../components/HardSkills"
+import { DevelopmentSkills } from "../../components/DevelopmentSkills"
+
 
 const DivContainer = styled.div`
     display: flex;
@@ -78,7 +79,7 @@ export const PaginaPrincipal = () => {
             </SectionHardSkills>
 
             <SectionDevelopmentSkills id="skillsdevelopment">
-                <DevelopmentSkills/>
+                <DevelopmentSkills />
             </SectionDevelopmentSkills>
 
         </DivContainer>

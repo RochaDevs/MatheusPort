@@ -1,13 +1,13 @@
 import { Box } from "@mui/material";
 import Slider from "react-slick";
 import styled from "styled-components";
-import { CardSoft } from "./softcard";
 import { RiSpeakFill } from "react-icons/ri";
 import { RiTeamFill } from "react-icons/ri";
 import { TiFlowMerge } from "react-icons/ti";
 import { FaExplosion } from "react-icons/fa6";
 import { FaHandHoldingHeart } from "react-icons/fa";
 import { FaArrowUpRightDots } from "react-icons/fa6";
+import { CardSoft } from "./SoftCard";
 
 
 

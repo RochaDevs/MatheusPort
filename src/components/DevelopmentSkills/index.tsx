@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { CarouselDevelopment } from './carouseldevelopment'
+import { CarouselDevelopment } from './CarouselDevelopment'
 
 const DivContainer = styled.div`
     height: 100%;
