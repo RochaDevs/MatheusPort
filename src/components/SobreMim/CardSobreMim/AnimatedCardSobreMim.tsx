@@ -1,6 +1,6 @@
 import { useSpring, animated } from 'react-spring';
-import { CardSobreMim } from ".";
 import styled from "styled-components"
+import { CardSobreMim } from '.';
 
 
 const AnimatedDiv = styled(animated.div)`

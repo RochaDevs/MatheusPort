@@ -3,13 +3,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styled from 'styled-components'
 import { Box } from "@mui/material";
-import { CardDevelopment } from "./CardDevelopment";
 import { FaBootstrap } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa";
 import { SiJest } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import { CardDevelopment } from "./carddevelopment";
 
 
 

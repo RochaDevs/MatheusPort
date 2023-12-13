@@ -4,25 +4,22 @@ import "slick-carousel/slick/slick-theme.css";
 import styled from 'styled-components'
 import { Box } from "@mui/material";
 import { SiTypescript } from "react-icons/si";
-import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { FaSass } from "react-icons/fa";
-import { FaHtml5 } from "react-icons/fa";
-import { IoLogoCss3 } from "react-icons/io5";
 import { SiAxios } from "react-icons/si";
 import { SiReactquery } from "react-icons/si";
 import { SiReactrouter } from "react-icons/si";
 import { SiStyledcomponents } from "react-icons/si";
 import { SiMui } from "react-icons/si";
-import { CardHard } from "./cardhard";
+import { IoLogoJavascript } from "react-icons/io5";
+import { CardInfoProjeto } from "./cardinfoprojeto";
 
 
 
 const SliderStyled = styled(Slider)`
     display: flex;
     height: 100%;
-    width: 60%;
-    margin-bottom: 10rem;
+    width: 100%;
     .slick-slide {
         transition: all 0.6s ease;
     }
@@ -40,62 +37,28 @@ const SliderStyled = styled(Slider)`
 
 
 
-export const CarouselHard = () => {
+export const CarouselInfoProjeto = () => {
 
     const settings = {
         className: "center",
         centerMode: true,
         infinite: true,
-        centerPadding: "5rem",
-        slidesToShow: 3,
+        centerPadding: "3rem",
+        slidesToShow: 1,
         speed: 500
     };
 
     return (
         <Box sx={{
-            height: '100%',
-            width: '100%',
+            height: '80%',
+            width: '20%',
             display: 'flex',
-            alignItems: 'center',
+            alignItems: 'start',
             justifyContent: 'center'
         }}>
             <SliderStyled {...settings} >
 
-                <CardHard
-                    logo={
-                        <IoLogoCss3
-                            fontSize='4rem'
-                            color='#1572B6'
-                        />
-                    }
-                    titulo={'CSS3'}
-                    texto1={
-                        'Responsividade e Mobile First'
-                    }
-                    texto2={
-                        'Layouts e Posicionamento'
-                    }
-                    texto3={
-                        'Display Flex e Grid'
-                    }
-                    texto4={
-                        'Transições e Animações'
-                    }
-                    texto5={
-                        'Propriedades e Valores'
-                    }
-                    texto6={
-                        'Tipografia'
-                    }
-                    texto7={
-                        'Cores e fundos'
-                    }
-                    texto8={
-                        '...'
-                    }
-                />
-
-                <CardHard
+                <CardInfoProjeto
                     logo={
                         <IoLogoJavascript
                             fontSize='4rem'
@@ -126,7 +89,7 @@ export const CarouselHard = () => {
                     }
                 />
 
-                <CardHard
+                <CardInfoProjeto
                     logo={
                         <SiTypescript
                             fontSize='4rem'
@@ -157,7 +120,7 @@ export const CarouselHard = () => {
                     }
                 />
 
-                <CardHard
+                <CardInfoProjeto
                     logo={
                         <FaReact
                             fontSize='4rem'
@@ -188,7 +151,7 @@ export const CarouselHard = () => {
                     }
                 />
 
-                <CardHard
+                <CardInfoProjeto
                     logo={
                         <SiReactrouter
                             fontSize='4rem'
@@ -219,7 +182,7 @@ export const CarouselHard = () => {
                     }
                 />
 
-                <CardHard
+                <CardInfoProjeto
                     logo={
                         <SiReactquery
                             fontSize='4rem'
@@ -247,7 +210,7 @@ export const CarouselHard = () => {
                     }
                 />
 
-                <CardHard
+                <CardInfoProjeto
                     logo={
                         <SiAxios
                             fontSize='4rem'
@@ -272,7 +235,7 @@ export const CarouselHard = () => {
                     }
                 />
 
-                <CardHard
+                <CardInfoProjeto
                     logo={
                         <FaSass
                             fontSize='4rem'
@@ -300,7 +263,7 @@ export const CarouselHard = () => {
                     }
                 />
 
-                <CardHard
+                <CardInfoProjeto
                     logo={
                         <SiStyledcomponents
                             fontSize='4rem'
@@ -328,7 +291,7 @@ export const CarouselHard = () => {
                     }
                 />
 
-                <CardHard
+                <CardInfoProjeto
                     logo={
                         <SiMui
                             fontSize='4rem'
@@ -349,40 +312,9 @@ export const CarouselHard = () => {
                         'Icons e Buttons'
                     }
                     texto5={
-                        'Responsividade e Media Queries'   
+                        'Responsividade e Media Queries'
                     }
                     texto6={
-                        '...'
-                    }
-                />
-
-                <CardHard
-                    logo={
-                        <FaHtml5
-                            fontSize='4rem'
-                            color='#F06529'
-                        />
-                    }
-                    titulo={'HTML5'}
-                    texto1={
-                        'Estrutura Semântica de Documentos'
-                    }
-                    texto2={
-                        'Formulários HTML'
-                    }
-                    texto3={
-                        'Incorporação de Imagens e Multimídia'
-                    }
-                    texto4={
-                        'Links e Navegação'
-                    }
-                    texto5={
-                        'Uso de Divs e Span:'
-                    }
-                    texto6={
-                        'Tabelas HTML'
-                    }
-                    texto7={
                         '...'
                     }
                 />

@@ -8,7 +8,6 @@ interface IHeader {
     titulo3: React.ReactNode
     titulo4: React.ReactNode
     titulo5: React.ReactNode
-    titulo6: React.ReactNode
 }
 
 const HeaderStyled = styled.header`
@@ -36,7 +35,7 @@ const LinkStyled = styled(Link)`
     }
 `
 
-export const Header = ({ titulo1, titulo2, titulo3, titulo4, titulo5, titulo6 }: IHeader) => {
+export const Header = ({ titulo1, titulo2, titulo3, titulo4, titulo5 }: IHeader) => {
 
 
     return (
@@ -49,21 +48,18 @@ export const Header = ({ titulo1, titulo2, titulo3, titulo4, titulo5, titulo6 }:
                 {titulo2}
             </LinkStyled>
 
-            <LinkStyled activeClass="active" to="projetosfreelancer" smooth={true} duration={500} offset={-100}>
+            <LinkStyled activeClass="active" to="softskilss" smooth={true} duration={500} offset={-100}>
                 {titulo3}
             </LinkStyled>
 
-            <LinkStyled activeClass="active" to="softskilss" smooth={true} duration={500} offset={-100}>
+            <LinkStyled activeClass="active" to="hardskilss" smooth={true} duration={500} offset={-100}>
                 {titulo4}
             </LinkStyled>
 
-            <LinkStyled activeClass="active" to="hardskilss" smooth={true} duration={500} offset={-100}>
+            <LinkStyled activeClass="active" to="skillsdevelopment" smooth={true} duration={500} offset={-100}>
                 {titulo5}
             </LinkStyled>
 
-            <LinkStyled activeClass="active" to="skillsemdesenvolvimento" smooth={true} duration={500} offset={-100}>
-                {titulo6}
-            </LinkStyled>
         </HeaderStyled>
     )
 }

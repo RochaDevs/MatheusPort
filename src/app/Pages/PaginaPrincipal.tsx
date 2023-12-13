@@ -1,9 +1,10 @@
-import { SobreMim } from "../../components/SobreMim"
 import styled from "styled-components"
-import { AnimatedHeader } from "./AnimatedPaginaPrincipal"
-import { SoftSkills } from "../../components/SoftSkills"
-import { HardSkills } from "../../components/HardSkills"
-import { DevelopmentSkills } from "../../components/DevelopmentSkills"
+import { SoftSkills } from "../../components/softskills"
+import { HardSkills } from "../../components/hardskills"
+import { DevelopmentSkills } from "../../components/developmentskills"
+import { ProjetosPessoais } from "../../components/projetospessoais"
+import { AnimatedHeader } from "./animatedpaginaprincipal"
+import { SobreMim } from "../../components/sobremim"
 
 const DivContainer = styled.div`
     display: flex;
@@ -16,6 +17,11 @@ const DivContainer = styled.div`
 
 const SectionSobreMim = styled.section`
     margin-top: 5rem;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+`
+const SectionProjetosPessoais = styled.section`
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
@@ -42,12 +48,6 @@ const SectionDevelopmentSkills = styled.section`
     box-sizing: border-box;
 `
 
-const SectionTest = styled.section`
-    margin-top: 4rem;
-    height: 100vh;
-    box-sizing: border-box;
-`
-
 export const PaginaPrincipal = () => {
 
     return (
@@ -56,23 +56,18 @@ export const PaginaPrincipal = () => {
             <AnimatedHeader
                 titulo1={'Sobre mim'}
                 titulo2={'Projetos Pessoais'}
-                titulo3={'Projetos Profissionais'}
-                titulo4={'Soft Skills'}
-                titulo5={'Hard Skills'}
-                titulo6={'Skills em desenvolvimento'}
+                titulo3={'Soft Skills'}
+                titulo4={'Hard Skills'}
+                titulo5={'Skills em desenvolvimento'}
             />
 
             <SectionSobreMim id="sobremim">
                 <SobreMim />
             </SectionSobreMim>
 
-            <SectionTest id="projetospessoais">
-                <h1>Projetos Pessoais</h1>
-            </SectionTest>
-
-            <SectionTest id="projetosfreelancer">
-                <h1>Projetos Profissionais</h1>
-            </SectionTest>
+            <SectionProjetosPessoais id="projetospessoais">
+                <ProjetosPessoais />
+            </SectionProjetosPessoais>
 
             <SectionSoftSkills id="softskilss">
                 <SoftSkills />
@@ -82,7 +77,7 @@ export const PaginaPrincipal = () => {
                 <HardSkills />
             </SectionHardSkills>
 
-            <SectionDevelopmentSkills id="skillsemdesenvolvimento">
+            <SectionDevelopmentSkills id="skillsdevelopment">
                 <DevelopmentSkills/>
             </SectionDevelopmentSkills>
 

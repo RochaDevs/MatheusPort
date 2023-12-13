@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import Slider from "react-slick";
 import styled from "styled-components";
-import { CardSoft } from "./SoftCard";
+import { CardSoft } from "./softcard";
 import { RiSpeakFill } from "react-icons/ri";
 import { RiTeamFill } from "react-icons/ri";
 import { TiFlowMerge } from "react-icons/ti";
