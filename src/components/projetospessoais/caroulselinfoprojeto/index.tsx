@@ -24,7 +24,7 @@ const SliderStyled = styled(Slider)`
         transition: all 0.6s ease;
     }
     .slick-center {
-        transform: scale(1.1);
+        transform: scale(1.0);
         padding: 1rem;
     }
     .slick-list {
@@ -34,12 +34,6 @@ const SliderStyled = styled(Slider)`
         justify-content: center;
     }
 
-    @media (max-width: 600px) {
-
-        .slick-center {
-            transform: scale(1.0);
-        }
-    }
 `
 
 
@@ -67,7 +61,7 @@ export const CarouselInfoProjeto = () => {
     return (
         <>
             <Box sx={{
-                height: '80%',
+                height: '100%',
                 width: '20%',
                 display: 'flex',
                 alignItems: 'start',

@@ -26,6 +26,7 @@ const HeaderStyled = styled.header`
     color: #FF9209;
     font-size: 1.25rem;
     font-family: 'Exo 2', sans-serif;
+    width: 100%;
 
     @media (max-width: 600px) {
         display: none;

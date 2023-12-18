@@ -16,16 +16,28 @@ const DivContainer = styled.div`
     gap: 6rem;
 `
 
-const SectionPrincipal = styled.section`
+const SectionSobreMim = styled.section`
     margin-top: 5rem;
     min-height: 100vh;
     width: 100%;
     box-sizing: border-box;
 `
-const SectionSecundaria = styled.section`
+
+const SectionProjetosPessoais = styled.section`
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+`
+
+const ContainerGeral = styled.section`
+    margin-top: 4rem;
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
+
+    @media (max-width: 600px) {
+        margin-top: 0rem;
+    }
 `
 
 export const PaginaPrincipal = () => {
@@ -41,25 +53,25 @@ export const PaginaPrincipal = () => {
                 titulo5={'Skills em desenvolvimento'}
             />
 
-            <SectionPrincipal id="sobremim">
+            <SectionSobreMim id="sobremim">
                 <SobreMim />
-            </SectionPrincipal>
+            </SectionSobreMim>
 
-            <SectionSecundaria id="projetospessoais">
+            <SectionProjetosPessoais id="projetospessoais">
                 <ProjetosPessoais />
-            </SectionSecundaria>
+            </SectionProjetosPessoais>
 
-            <SectionPrincipal id="softskilss">
+            <ContainerGeral id="softskilss">
                 <SoftSkills />
-            </SectionPrincipal>
+            </ContainerGeral>
 
-            <SectionPrincipal id="hardskilss">
+            <ContainerGeral id="hardskilss">
                 <HardSkills />
-            </SectionPrincipal>
+            </ContainerGeral>
 
-            <SectionPrincipal id="skillsdevelopment">
+            <ContainerGeral id="skillsdevelopment">
                 <DevelopmentSkills />
-            </SectionPrincipal>
+            </ContainerGeral>
 
         </DivContainer>
     )
