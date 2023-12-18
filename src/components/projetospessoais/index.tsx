@@ -9,6 +9,12 @@ const DivContainer = styled.div`
     display: flex;
     align-items: start;
     justify-content: center;
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
 `
 
 export const ProjetosPessoais = () => {

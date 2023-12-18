@@ -16,34 +16,13 @@ const DivContainer = styled.div`
     gap: 6rem;
 `
 
-const SectionSobreMim = styled.section`
+const SectionPrincipal = styled.section`
     margin-top: 5rem;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     box-sizing: border-box;
 `
-const SectionProjetosPessoais = styled.section`
-    height: 100vh;
-    width: 100%;
-    box-sizing: border-box;
-`
-
-const SectionSoftSkills = styled.section`
-    margin-top: 4rem;
-    height: 100vh;
-    width: 100%;
-    box-sizing: border-box;
-`
-
-const SectionHardSkills = styled.section`
-    margin-top: 4rem;
-    height: 100vh;
-    width: 100%;
-    box-sizing: border-box;
-`
-
-const SectionDevelopmentSkills = styled.section`
-    margin-top: 4rem;
+const SectionSecundaria = styled.section`
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
@@ -62,25 +41,25 @@ export const PaginaPrincipal = () => {
                 titulo5={'Skills em desenvolvimento'}
             />
 
-            <SectionSobreMim id="sobremim">
+            <SectionPrincipal id="sobremim">
                 <SobreMim />
-            </SectionSobreMim>
+            </SectionPrincipal>
 
-            <SectionProjetosPessoais id="projetospessoais">
+            <SectionSecundaria id="projetospessoais">
                 <ProjetosPessoais />
-            </SectionProjetosPessoais>
+            </SectionSecundaria>
 
-            <SectionSoftSkills id="softskilss">
+            <SectionPrincipal id="softskilss">
                 <SoftSkills />
-            </SectionSoftSkills>
+            </SectionPrincipal>
 
-            <SectionHardSkills id="hardskilss">
+            <SectionPrincipal id="hardskilss">
                 <HardSkills />
-            </SectionHardSkills>
+            </SectionPrincipal>
 
-            <SectionDevelopmentSkills id="skillsdevelopment">
+            <SectionPrincipal id="skillsdevelopment">
                 <DevelopmentSkills />
-            </SectionDevelopmentSkills>
+            </SectionPrincipal>
 
         </DivContainer>
     )

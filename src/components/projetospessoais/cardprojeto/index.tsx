@@ -11,6 +11,10 @@ const DivContainer = styled.div`
     height: 75%;
     width: 60%;
     display: flex;
+
+    @media (max-width: 600px) {
+        width: 85%;
+    }
 `
 
 export default function CardProjeto() {
@@ -19,8 +23,25 @@ export default function CardProjeto() {
         <DivContainer>
             <Card sx={{ maxWidth: 800 }}>
                 <CardMedia
-                    sx={{ height: 400 }}
+                    sx={{ 
+                        height: 400,
+                        display: 'none', 
+                        '@media (min-width: 600px)': {
+                            display: 'block'
+                        } 
+                    }}
                     image="/public/leitor.PNG"
+                    title="Imagem da pagina inicial do projeto leitor-jujutsu"
+                />
+                <CardMedia
+                    sx={{ 
+                        height: 400,
+                        display: 'none', 
+                        '@media (max-width: 600px)': {
+                            display: 'block'
+                        } 
+                    }}
+                    image="/public/mobile.PNG"
                     title="Imagem da pagina inicial do projeto leitor-jujutsu"
                 />
                 <CardContent>
@@ -33,27 +54,27 @@ export default function CardProjeto() {
                 </CardContent>
                 <CardActions>
 
-                    <Button 
-                        sx={{ 
-                            display: 'flex', 
-                            alignItems: 'center', 
-                            justifyContent: 'center', 
-                            width: '100%' 
-                        }} 
-                        size="small" color='error'  
+                    <Button
+                        sx={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            width: '100%'
+                        }}
+                        size="small" color='error'
                         onClick={() => window.open('https://jujutsu-online.vercel.app/', '_blank')}
                     >
                         OnlineJJK
                     </Button>
 
-                    <Button 
-                        sx={{ 
-                            display: 'flex', 
-                            alignItems: 'center', 
-                            justifyContent: 'center', 
-                            width: '100%' 
-                        }} 
-                        size="small" color='error'  
+                    <Button
+                        sx={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            width: '100%'
+                        }}
+                        size="small" color='error'
                         onClick={() => window.open('https://github.com/RochaDevs/JujutsuOnline', '_blank')}
                     >
                         GITHUB

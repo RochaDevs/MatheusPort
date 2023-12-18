@@ -11,6 +11,10 @@ const AnimatedDiv = styled(animated.div)`
     justify-content: center;
     opacity: 0;
 
+    @media (max-width: 600px) {
+        width: 100%;
+    }
+
 `
 
 export const AnimatedCardSobreMim = () => {

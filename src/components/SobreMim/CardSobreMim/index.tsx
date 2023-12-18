@@ -18,7 +18,12 @@ export function CardSobreMim({ imagem, nome, cargo }: ICardSobreMim) {
 
     return (
 
-        <Card sx={{ width: '60%' }}>
+        <Card sx={{
+            width: '60%',
+            '@media (max-width: 600px)': {
+                width: '85%'
+            }
+        }}>
 
             <CardMedia
                 sx={{ height: '20rem' }}
@@ -64,6 +69,13 @@ export function CardSobreMim({ imagem, nome, cargo }: ICardSobreMim) {
                     onClick={() => window.open(`https://wa.me/+5511956042056?text=Olá, gostaria de conversar sobre...`, '_blank')}
                 >
                     WhatsApp
+                </Button>
+
+                <Button
+                    size="small"
+                    onClick={() => window.open(`https://drive.google.com/file/d/1L7nzwGRq4mZgC9xBzYJZxYi7Bf7y-pTY/view?usp=drive_link`, '_blank')}
+                >
+                    Currículo
                 </Button>
 
             </CardActions>

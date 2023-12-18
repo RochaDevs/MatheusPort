@@ -8,6 +8,12 @@ const DivContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     margin-left: 2.5rem;
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 1rem;
+    }
 `
 
 export const SobreMim = () => {
