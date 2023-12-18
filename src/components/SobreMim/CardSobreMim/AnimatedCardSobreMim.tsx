@@ -30,7 +30,7 @@ export const AnimatedCardSobreMim = () => {
 
         <AnimatedDiv style={cardSpring}>
             <CardSobreMim
-                imagem="/src/assets/eu.PNG"
+                imagem="/eu.png"
                 nome="Matheus Rocha"
                 cargo="Desenvolvedor Frontend"
             />
