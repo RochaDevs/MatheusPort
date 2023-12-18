@@ -30,7 +30,7 @@ export default function CardProjeto() {
                             display: 'block'
                         } 
                     }}
-                    image='/src/assets/eu.png'
+                    image='/eu.png'
                     title="Imagem da pagina inicial do projeto leitor-jujutsu"
                 />
                 <CardMedia
@@ -41,7 +41,7 @@ export default function CardProjeto() {
                             display: 'block'
                         } 
                     }}
-                    image="/src/assets/mobile.png"
+                    image="/mobile.png"
                     title="Imagem da pagina inicial do projeto leitor-jujutsu"
                 />
                 <CardContent>
