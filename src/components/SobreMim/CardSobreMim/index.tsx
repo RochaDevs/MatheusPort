@@ -53,7 +53,7 @@ export function CardSobreMim({ imagem, nome, cargo }: ICardSobreMim) {
                     </Typography>
 
                     <Typography variant='subtitle1' fontFamily={"'Exo 2', sans-serif"}>
-                        Busco uma oportunidade como estagiário ou Jr. Não desprezo os pequenos começos, os estimo muito.
+                    Estou em busca de uma oportunidade como estagiário ou profissional júnior. Valorizo muito os pequenos começos e não os subestimo.
                     </Typography>
                 </Box>
 

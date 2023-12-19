@@ -23,23 +23,23 @@ export default function CardProjeto() {
         <DivContainer>
             <Card sx={{ maxWidth: 800 }}>
                 <CardMedia
-                    sx={{ 
+                    sx={{
                         height: 400,
-                        display: 'none', 
+                        display: 'none',
                         '@media (min-width: 600px)': {
                             display: 'block'
-                        } 
+                        }
                     }}
                     image='/leitor.png'
                     title="Imagem da pagina inicial do projeto leitor-jujutsu"
                 />
                 <CardMedia
-                    sx={{ 
+                    sx={{
                         height: 400,
-                        display: 'none', 
+                        display: 'none',
                         '@media (max-width: 600px)': {
                             display: 'block'
-                        } 
+                        }
                     }}
                     image="/mobile.png"
                     title="Imagem da pagina inicial do projeto leitor-jujutsu"
@@ -49,7 +49,7 @@ export default function CardProjeto() {
                         Projeto: OnlineJJK
                     </Typography>
                     <Typography variant="body2" color="text.secondary" fontSize={'1.1rem'}>
-                        Site criado de fã para fã! Leitor online para desktop e mobile. Crie sua conta, favorite seus volumes escolhidos e muito mais!
+                        Este site foi criado por fãs e para fãs! Oferecemos uma experiência de leitura online otimizada tanto para desktop quanto para dispositivos móveis. Registre-se para criar sua conta pessoal, selecione e favorite seus volumes preferidos, e explore muito mais! Nosso objetivo é proporcionar a melhor experiência possível para os entusiastas do gênero.
                     </Typography>
                 </CardContent>
                 <CardActions>

@@ -66,6 +66,7 @@ export const CarouselInfoProjeto = () => {
                 display: 'flex',
                 alignItems: 'start',
                 justifyContent: 'center',
+                marginTop: '5rem',
 
                 '@media (max-width: 600px)': {
                     display: 'none'

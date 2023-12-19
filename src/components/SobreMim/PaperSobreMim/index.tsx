@@ -28,7 +28,7 @@ export function PaperSobreMim() {
                     padding: '1rem',
                     display: 'flex',
                     flexDirection: 'column',
-                    gap: '1rem',
+                    gap: '0.5rem',
                     height: '100%'
                 }}
             >
@@ -38,7 +38,8 @@ export function PaperSobreMim() {
                 </Typography>
 
                 <Typography variant='subtitle1' sx={{ fontFamily: "'Exo 2', sans-serif" }}>
-                    Atualmente tenho <Box component={'span'} sx={{ color: '#FF9209' }}>23 anos</Box> de idade. Resido em <Box component={'span'} sx={{ color: '#FF9209' }}>Indaiatuba-SP</Box>, mas já transitei por São Paulo-SP, Praia Grande-SP, Salto de Pirapora-SP e outras cidades. Gosto de conhecer lugares novos! <Box component={'span'} sx={{ color: '#FF9209' }}>Estou noivo</Box> de uma linda mulher chamada Sara e alguns de meus hobbies são: <Box component={'span'} sx={{ color: '#FF9209' }}>ler mangás (meu favorito é Jujutsu Kaisen)</Box>, caminhar acompanhado, fazer café e <Box component={'span'} sx={{ color: '#FF9209' }}>desenvolver aplicações web</Box>.
+                    Olá! Meu nome é Matheus e tenho <Box component={'span'} sx={{ color: '#FF9209' }}>23 anos</Box> de idade. Atualmente, resido em <Box component={'span'} sx={{ color: '#FF9209' }}>Indaiatuba-SP</Box>, mas já vivenciei a diversidade de várias cidades paulistas como São Paulo, Praia Grande e Salto de Pirapora. Sou apaixonado por explorar novos lugares e absorver as diferentes culturas e experiências que cada um oferece.
+                    <Box component={'span'} sx={{ color: '#FF9209' }}> Estou noivo</Box> da incrível Sara, com quem compartilho muitos momentos especiais. Nos meus tempos livres, você pode me encontrar mergulhado no universo dos mangás, sendo <Box component={'span'} sx={{ color: '#FF9209' }}>'Jujutsu Kaisen'</Box> o meu favorito. Além disso, adoro caminhar ao lado de pessoas queridas, preparar um bom café e <Box component={'span'} sx={{ color: '#FF9209' }}>colocar minha criatividade em prática desenvolvendo aplicações web</Box>.
                 </Typography>
 
                 <Typography variant='h6' sx={{ display: 'flex', alignItems: 'center', gap: '.25rem', fontFamily: "'Exo 2', sans-serif" }}>
@@ -47,7 +48,9 @@ export function PaperSobreMim() {
                 </Typography>
 
                 <Typography variant='subtitle1' sx={{ fontFamily: "'Exo 2', sans-serif" }}>
-                    Formado como <Box component={'span'} sx={{ color: '#FF9209' }}>Técnico em Química</Box>, trabalhei na área como operador de pesagem na <Box component={'span'} sx={{ color: '#FF9209' }}>L'oréal por quase 2 anos</Box>. Senti que essa área não me pertencia, então arrisquei na área de Lógistica. Fui Representante de Envios no <Box component={'span'} sx={{ color: '#FF9209' }}>Mercado Livre</Box> por quase 1 ano, e também não me encontrei. Retornei para uma antiga paixão na área de Cenografia, operando máquinas de corte 3D. Após pouco mais de 1 ano nessa área, por estar em contato com <Box component={'span'} sx={{ color: '#FF9209' }}>softwares e hardwares específicos</Box>, ascendeu em mim um amor pela <Box component={'span'} sx={{ color: '#FF9209' }}>área de TI</Box> como um todo, e foi quando comecei a estudar para me tornar <Box component={'span'} sx={{ color: '#FF9209' }}>um desenvolvedor frontend</Box>.
+                    Sou formado como <Box component={'span'} sx={{ color: '#FF9209' }}>Técnico em Química</Box> e iniciei minha carreira trabalhando como operador de pesagem na <Box component={'span'} sx={{ color: '#FF9209' }}>L'oréal</Box>, onde permaneci por quase 2 anos. Apesar da experiência valiosa, percebi que essa área não era a minha verdadeira vocação. Em busca de novos horizontes, migrei para a área de Logística, atuando como Representante de Envios no <Box component={'span'} sx={{ color: '#FF9209' }}>Mercado Livre</Box> por aproximadamente um ano. Essa experiência, embora enriquecedora, também não ressoou com meus interesses profundos.
+
+                    Retornei, então, a uma paixão antiga: a área de Cenografia. Foi um período de mais de um ano de aprendizado e crescimento. Contudo, foi o meu envolvimento com <Box component={'span'} sx={{ color: '#FF9209' }}>softwares e hardwares específicos</Box> que acendeu uma nova chama em mim: o amor pela <Box component={'span'} sx={{ color: '#FF9209' }}>área de TI</Box>. Esse interesse me levou a começar os estudos para me tornar <Box component={'span'} sx={{ color: '#FF9209' }}>um desenvolvedor frontend</Box>.
                 </Typography>
 
                 <Typography variant='h6' sx={{ display: 'flex', alignItems: 'center', gap: '.25rem', fontFamily: "'Exo 2', sans-serif" }}>
@@ -56,7 +59,7 @@ export function PaperSobreMim() {
                 </Typography>
 
                 <Typography variant='subtitle1' sx={{ fontFamily: "'Exo 2', sans-serif" }}>
-                    Caminhando para o 2ª semestre de <Box component={'span'} sx={{ color: '#FF9209' }}>Análise e Desenvolvimento de Sistemas</Box> na Faculdade Descomplica (incrível por sinal!). Há quase 1 ano estudando na <Box component={'span'} sx={{ color: '#FF9209' }}>escola frontend da Alura</Box>, a melhor instituição de ensino de tecnologia que conheci, inclusive já renovei meu contrato com eles por mais um ano! Tecnologias como <Box component={'span'} sx={{ color: '#FF9209' }}>Javascript <IoLogoJavascript color='#F7DF1E' fontSize='1.25rem' />, Typescript <SiTypescript color='#3178C6' fontSize='1.25rem' />, React Js <FaReact color='#61DAFB' fontSize='1.25rem' /></Box> entre outras estão no meu escopo de conhecimento e prática constante.
+                    Estou avançando para o segundo semestre do curso de <Box component={'span'} sx={{ color: '#FF9209' }}>Análise e Desenvolvimento de Sistemas</Box> na Faculdade Descomplica, uma instituição de ensino verdadeiramente incrível. Há quase um ano, venho aprimorando minhas habilidades na <Box component={'span'} sx={{ color: '#FF9209' }}>escola frontend da Alura</Box>, que considero a melhor instituição de ensino de tecnologia que já conheci. No meu arsenal de habilidades tecnológicas, tenho me dedicado a tecnologias como <Box component={'span'} sx={{ color: '#FF9209' }}>JavaScript <IoLogoJavascript color='#F7DF1E' fontSize='1.25rem' />, TypeScript <SiTypescript color='#3178C6' fontSize='1.25rem' />, e React Js <FaReact color='#61DAFB' fontSize='1.25rem' /></Box>, entre outras. Essas habilidades estão em constante desenvolvimento e prática no meu percurso profissional.
                 </Typography>
             </Paper>
         </Box>
