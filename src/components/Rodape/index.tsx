@@ -2,7 +2,7 @@
 export const Rodape = () => {
     return (
         <>
-            <h1>Rodape</h1>
+            <h1 className="h6">Rodape</h1>
         </>
     )
 }
