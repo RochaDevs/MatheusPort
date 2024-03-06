@@ -1,6 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { PaginaPrincipal } from "../app/Pages/PagePrincipal"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { PaginaProjetos } from "../app/Pages/PageProjetos";
+import { PaginaHabilidades } from "../app/Pages/PageHabilidades";
+import { PaginaCertificacoes } from "../app/Pages/PageCertificacoes";
+import { PaginaArtigos } from "../app/Pages/PageArtigo";
 
 
 export const AppRoutes = () => {
@@ -10,7 +14,10 @@ export const AppRoutes = () => {
                 <Route path="/" element={
                     <PaginaPrincipal />
                 }>
-
+                    <Route path="/projetos" element={<PaginaProjetos/>} />
+                    <Route path="/habilidades" element={<PaginaHabilidades/>} />
+                    <Route path="/certificacoes" element={<PaginaCertificacoes/>} />
+                    <Route path="/artigos" element={<PaginaArtigos/>} />
                 </Route>
             </Routes>
         </BrowserRouter>

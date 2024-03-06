@@ -1,15 +1,19 @@
+import React from "react"
+
 
 interface IBotaoParaSubmeter {
-    titulo: string
+    titulo?: string
+    icone?: React.ReactNode
 }
 
-export const BotaoParaSubmeter = ({titulo}: IBotaoParaSubmeter) => {
+export const BotaoParaSubmeter = ({titulo, icone}: IBotaoParaSubmeter) => {
     return (
         <button 
             type="submit"
-            className="border p-1"
+            className="border px-2 py-1 d-flex align-items-center"
         >
             {titulo}
+            {icone}
         </button>
     )
 }

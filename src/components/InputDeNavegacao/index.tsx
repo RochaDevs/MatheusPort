@@ -4,7 +4,7 @@ export const InputDeNavegacao = () => {
     return (
         <input 
             type="text" 
-            placeholder="Buscar projetos, habilidades, certificações ou artigos"
+            placeholder="Projetos, habilidades, certificações ou artigos"
             className={`${styles.inputDeNavegacao}`}
         
         />
