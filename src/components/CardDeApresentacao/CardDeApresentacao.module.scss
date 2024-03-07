@@ -1,0 +1,47 @@
+.container_xlParaCima{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    width: 70%;
+    height: 100%;
+    z-index: 1000;
+    left: 5rem;
+    top: -8rem;
+
+    .botao {
+
+        &:hover {
+            color: #9195F6;
+        }
+    }
+}
+
+.container_lgParaCima{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    width: 78%;
+    height: 100%;
+    z-index: 1000;
+    left: 3rem;
+    top: -8rem;
+
+    .botao {
+
+        &:hover {
+            color: #9195F6;
+        }
+    }
+}
+
+.container_mdParaCima{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    width: 78%;
+    height: 100%;
+    z-index: 1000;
+    left: 3rem;
+    top: -8rem;
+
+    .botao {
+
+        &:hover {
+            color: #9195F6;
+        }
+    }
+}
