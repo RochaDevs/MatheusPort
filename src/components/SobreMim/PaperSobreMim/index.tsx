@@ -38,7 +38,7 @@ export function PaperSobreMim() {
                 </Typography>
 
                 <Typography variant='subtitle1' sx={{ fontFamily: "'Exo 2', sans-serif" }}>
-                    Olá! Meu nome é Matheus e tenho <Box component={'span'} sx={{ color: '#FF9209' }}>23 anos</Box> de idade. Atualmente, resido em <Box component={'span'} sx={{ color: '#FF9209' }}>Indaiatuba-SP</Box>, mas já vivenciei a diversidade de várias cidades paulistas como São Paulo, Praia Grande e Salto de Pirapora. Sou apaixonado por explorar novos lugares e absorver as diferentes culturas e experiências que cada um oferece.
+                    Olá! Meu nome é Matheus e tenho <Box component={'span'} sx={{ color: '#FF9209' }}>23 anos</Box> de idade. Atualmente, resido em <Box component={'span'} sx={{ color: '#FF9209' }}>São Paulo-SP</Box>. Sou apaixonado por explorar novos lugares e absorver as diferentes culturas e experiências que cada um oferece.
                     <Box component={'span'} sx={{ color: '#FF9209' }}> Estou noivo</Box> da incrível Sara, com quem compartilho muitos momentos especiais. Nos meus tempos livres, você pode me encontrar mergulhado no universo dos mangás, sendo <Box component={'span'} sx={{ color: '#FF9209' }}>'Jujutsu Kaisen'</Box> o meu favorito. Além disso, adoro caminhar ao lado de pessoas queridas, preparar um bom café e <Box component={'span'} sx={{ color: '#FF9209' }}>colocar minha criatividade em prática desenvolvendo aplicações web</Box>.
                 </Typography>
 
