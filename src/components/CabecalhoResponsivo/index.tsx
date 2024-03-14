@@ -23,7 +23,9 @@ export const CabecalhoResponsivo = () => {
                     Menu
                 </Dropdown.Toggle>
 
-                <Dropdown.Menu>
+                <Dropdown.Menu style={{
+                    zIndex: '1000'
+                }}>
                     <Dropdown.Item as="div">
                         <BotaoParaLink link="/" titulo="Início" />
                     </Dropdown.Item>

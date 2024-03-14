@@ -1,9 +1,9 @@
 .container_xlParaCima{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
-    width: 70%;
+    width: 80%;
     height: 100%;
-    z-index: 1000;
-    left: 5rem;
+    z-index: 999;
+    left: 2.5rem;
     top: -8rem;
 
     .botao {
@@ -18,8 +18,8 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
     width: 78%;
     height: 100%;
-    z-index: 1000;
-    left: 3rem;
+    z-index: 999;
+    left: 2rem;
     top: -8rem;
 
     .botao {
@@ -33,9 +33,24 @@
 .container_mdParaCima{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
     width: 78%;
-    height: 100%;
-    z-index: 1000;
+    height: 80%;
+    z-index: 999;
     left: 3rem;
+    top: -8rem;
+
+    .botao {
+
+        &:hover {
+            color: #9195F6;
+        }
+    }
+}
+
+.container_smParaCima{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    width: 78%;
+    height: 80%;
+    z-index: 999;
     top: -8rem;
 
     .botao {

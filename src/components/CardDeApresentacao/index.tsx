@@ -8,7 +8,7 @@ export const CardDeApresentacao = () => {
             <aside className={`
             ${styles.container_xlParaCima} 
             position-relative bg-white p-3 flex-column gap-2 rounded
-            d-none d-xl-flex
+            d-none d-xl-flex justify-content-center
             `}
 
             >
@@ -64,7 +64,7 @@ export const CardDeApresentacao = () => {
             <aside className={`
             ${styles.container_lgParaCima} 
             position-relative bg-white p-3 flex-column gap-2 rounded
-            d-none d-lg-flex d-xl-none
+            d-none d-lg-flex d-xl-none justify-content-center
             `}
 
             >
@@ -120,7 +120,7 @@ export const CardDeApresentacao = () => {
             <aside className={`
             ${styles.container_lgParaCima} 
             position-relative bg-white p-3 flex-column gap-2 rounded
-            d-none d-md-flex d-lg-none
+            d-none d-md-flex d-lg-none justify-content-center
             `}
 
             >
@@ -174,9 +174,9 @@ export const CardDeApresentacao = () => {
             </aside>
 
             <aside className={`
-            ${styles.container_lgParaCima} 
+            ${styles.container_smParaCima} 
             position-relative bg-white p-3 flex-column gap-2 rounded
-            d-none d-sm-flex d-md-none
+            d-flex d-md-none justify-content-center
             `}
 
             >
