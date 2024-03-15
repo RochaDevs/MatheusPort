@@ -6,6 +6,7 @@ import { PaginaHabilidades } from "../app/Pages/PageHabilidades";
 import { PaginaCertificacoes } from "../app/Pages/PageCertificacoes";
 import { PaginaArtigos } from "../app/Pages/PageArtigo";
 import { PaginaInicial } from "../app/Pages/PageInicial";
+import { TituloDosBotoesProvider } from "../context/projetoContext";
 
 
 export const AppRoutes = () => {
@@ -16,7 +17,12 @@ export const AppRoutes = () => {
                     <PaginaPrincipal />
                 }>
                     <Route index element={<PaginaInicial />} />
-                    <Route path="/projetos" element={<PaginaProjetos/>} />
+                    <Route path="/projetos" element={
+                        <TituloDosBotoesProvider>
+                            <PaginaProjetos />
+                        </TituloDosBotoesProvider>
+                    }
+                    />
                     <Route path="/habilidades" element={<PaginaHabilidades/>} />
                     <Route path="/certificacoes" element={<PaginaCertificacoes/>} />
                     <Route path="/artigos" element={<PaginaArtigos/>} />
