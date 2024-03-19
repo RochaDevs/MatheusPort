@@ -1,31 +1,32 @@
 import { createContext, useContext, useState } from "react"
+import { IProjetoSelecionado } from "../app/Interfaces/IProjetoSelecionado";
 
-interface ITituloDosBotoesContext {
-    tituloDoBotao: string
-    setTituloDoBotao: (tituloBotao: string) => void;
+interface IProjetoSelecionadoContext {
+    projetoSelecionado: IProjetoSelecionado | null;
+    setProjetoSelecionado: (projeto: IProjetoSelecionado | null) => void;
 }
 
 interface Ichildren {
     children: React.ReactNode;
 }
 
-const TituloDosBotoesContext = createContext<ITituloDosBotoesContext | undefined>(undefined);
+const ProjetoSelecionadoContext = createContext<IProjetoSelecionadoContext | undefined>(undefined);
 
-export const TituloDosBotoesProvider = ({children}: Ichildren) => {
+export const ProjetoSelecionadoProvider = ({children}: Ichildren) => {
 
-    const [tituloDoBotao, setTituloDoBotao] = useState<string>('');
+    const [projetoSelecionado, setProjetoSelecionado] = useState<IProjetoSelecionado | null>(null);
 
     const value = {
-        tituloDoBotao,
-        setTituloDoBotao
+        projetoSelecionado,
+        setProjetoSelecionado
     }
 
-    return <TituloDosBotoesContext.Provider value={value}>{children}</TituloDosBotoesContext.Provider>
+    return <ProjetoSelecionadoContext.Provider value={value}>{children}</ProjetoSelecionadoContext.Provider>
 
 }
 
-export const useTituloDosBotoes = () => {
-    const context = useContext(TituloDosBotoesContext);
+export const useProjetoSelecionado = () => {
+    const context = useContext(ProjetoSelecionadoContext);
     if (context === undefined) {
         throw new Error("useTituloDosBotoes must be used within a TituloDosBotoesProvider");
     }

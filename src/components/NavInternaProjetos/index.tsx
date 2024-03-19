@@ -1,17 +1,17 @@
 import database from '../../../api/database.json';
-import { useTituloDosBotoes } from '../../context/projetoContext';
+import { useProjetoSelecionado } from '../../context/projetoContext';
 import styles from './NavInternaProjetos.module.scss';
 
 export const NavInternaProjetos = () => {
 
-    const {setTituloDoBotao} = useTituloDosBotoes()
+    const {setProjetoSelecionado} = useProjetoSelecionado()
 
     return (
         <nav className={`${styles.navContainer} d-flex gap-2 p-2`}>
-            {database.projetos.map((projeto: {titulo: string}) => (
+            {database.projetos.map((projeto) => (
                 <button 
                     key={projeto.titulo}
-                    onClick={() => setTituloDoBotao(projeto.titulo)}
+                    onClick={() => setProjetoSelecionado(projeto)}
                 >
                     {projeto.titulo}
                 </button>

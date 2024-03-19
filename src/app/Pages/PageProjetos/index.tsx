@@ -1,22 +1,31 @@
 import { NavInternaProjetos } from "../../../components/NavInternaProjetos"
-import { useTituloDosBotoes } from "../../../context/projetoContext";
+import { useProjetoSelecionado} from "../../../context/projetoContext";
+import { ProjetoSelecionado } from "./projetoSelecionado";
 import { TodosOSProjetos } from "./todosOSProjetos";
 
 
 export const PaginaProjetos = () => {
 
-    const {tituloDoBotao} = useTituloDosBotoes()
+    const {projetoSelecionado} = useProjetoSelecionado()
 
     const renderizarComponente = () => {
         
-        switch (tituloDoBotao) {
-            case 'Todos':
+        switch (true) {
+            case projetoSelecionado?.titulo === "Todos":
                 return (
                     <TodosOSProjetos />
                 );
             default:
                 return (
-                    <h1>Qualquer</h1>
+                    <ProjetoSelecionado 
+                        titulo={projetoSelecionado?.titulo}
+                        key={projetoSelecionado?.titulo}
+                        finalizadoEm={projetoSelecionado?.finalizadoEm}
+                        por={projetoSelecionado?.por}
+                        linguagemUsada={projetoSelecionado?.linguagemUsada}
+                        frameworkUsado={projetoSelecionado?.frameworkUsado}
+                        estilizacao={projetoSelecionado?.estilizacao}
+                    />
                 );
         }
     };

@@ -4,16 +4,36 @@
       "titulo": "Todos"
     },
     {
-      "titulo": "JJK-Online"
+      "titulo": "JJK-Online",
+      "finalizadoEm": "Fev/2024",
+      "por": "Matheus Rocha",
+      "linguagemUsada": "Typescript",
+      "frameworkUsado": "ReactJs",
+      "estilizacao": "Scss, Styled Components, Material MUI"
     },
     {
-      "titulo": "Quiz Bíblico"
+      "titulo": "Quiz Bíblico",
+      "finalizadoEm": "...",
+      "por": "Matheus Rocha",
+      "linguagemUsada": "Typescript",
+      "frameworkUsado": "ReactJs",
+      "estilizacao": "..."
     },
     {
-      "titulo": "Cantenary"
+      "titulo": "Cantenary",
+      "finalizadoEm": "...",
+      "por": "Em cooperação com a RockTech",
+      "linguagemUsada": "Typescript",
+      "frameworkUsado": "NextJs",
+      "estilizacao": "Tailwind CSS"
     },
     {
-      "titulo": "BoLearn"
+      "titulo": "BoLearn",
+      "finalizadoEm": "...",
+      "por": "Matheus Rocha",
+      "linguagemUsada": "Typescript",
+      "frameworkUsado": "ReactJs",
+      "estilizacao": "..."
     }
   ]
 }
