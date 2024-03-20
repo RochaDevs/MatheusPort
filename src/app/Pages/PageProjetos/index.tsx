@@ -11,7 +11,7 @@ export const PaginaProjetos = () => {
     const renderizarComponente = () => {
         
         switch (true) {
-            case projetoSelecionado?.titulo === "Todos":
+            case projetoSelecionado === null || projetoSelecionado?.titulo === "Todos" :
                 return (
                     <TodosOSProjetos />
                 );
